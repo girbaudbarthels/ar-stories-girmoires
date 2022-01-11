@@ -1,0 +1,51 @@
+PODS:
+  - arkit_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - "flutter_sound (6.4.7+1)":
+    - Flutter
+    - mobile-ffmpeg-audio (= 4.3.1.LTS)
+    - "tau_sound_core (= 6.4.7+1)"
+  - mobile-ffmpeg-audio (4.3.1.LTS)
+  - path_provider (0.0.1):
+    - Flutter
+  - "tau_sound_core (6.4.7+1)"
+  - video_player (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - video_player (from `.symlinks/plugins/video_player/ios`)
+
+SPEC REPOS:
+  trunk:
+    - mobile-ffmpeg-audio
+    - tau_sound_core
+
+EXTERNAL SOURCES:
+  arkit_plugin:
+    :path: ".symlinks/plugins/arkit_plugin/ios"
+  Flutter:
+    :path: Flutter
+  flutter_sound:
+    :path: ".symlinks/plugins/flutter_sound/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  video_player:
+    :path: ".symlinks/plugins/video_player/ios"
+
+SPEC CHECKSUMS:
+  arkit_plugin: 3e42571e8be84adabb8a178bd51c22fa981e16bd
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_sound: dd0867ef5d1269fbdc78bce3b56d35dfa7cba016
+  mobile-ffmpeg-audio: adc36047b8032bc0f8e5c4e6ab7cb110189d9b37
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  tau_sound_core: 7c0d33b67acea66a344bf7291b562d0dcc3755e4
+  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
+
+PODFILE CHECKSUM: 89a3123375b8150fc48441db01802ca0efb7b1da
+
+COCOAPODS: 1.10.0
